@@ -66,7 +66,7 @@ header #header_results{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 header #header_results p{
-    /* text-align: center; */
+    text-align: center;
     font-size: 1vw;
     color: white;
     margin: 0;
