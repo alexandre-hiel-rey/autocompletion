@@ -1,6 +1,21 @@
 $(document).ready(function(){
     console.log('Document loaded');
     
+    
+    $(document).click(function(e){
+        if(e.target.id != 'search_input' || e.target.id != 'results'){
+            $('#results').hide();
+        }
+        if(e.target.id == 'search_input' || e.target.id == 'results'){
+            if($('#search_input').val() != ''){
+                $('#results').show();
+            }else{
+                $('#results').hide();
+            }
+        }else{
+            $('#results').hide();
+        }
+    })
     $('#search_input').on('input', function(){
         if($('#search_input').val() == ''){
             $('#results').hide();
@@ -37,6 +52,23 @@ $(document).ready(function(){
         }
     })
     
+
+    // Search pour le header   
+
+    $(document).click(function(e){
+        if(e.target.id != 'header_search_bar' || e.target.id != 'header_results'){
+            $('#header_results').hide();
+        }
+        if(e.target.id == 'header_search_bar' || e.target.id == 'header_results'){
+            if($('#header_search_bar').val() != ''){
+                $('#header_results').show();
+            }else{
+                $('#header_results').hide();
+            }
+        }else{
+            $('#header_results').hide();
+        }
+    })
     $('#header_search_bar').on('input', function(){
         if($('#header_search_bar').val() == ''){
             $('#header_results').hide();

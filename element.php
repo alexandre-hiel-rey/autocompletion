@@ -4,7 +4,7 @@
     //     header('Location: index.php');
     // }
 
-    $id = 1;
+    $id = ;
 
     $db = new PDO('mysql:host=localhost;dbname=autocompletion', 'root', '');
 
@@ -27,7 +27,7 @@
     <section id="presentation">
             <img src="<?php echo $results[3]; ?>"alt="Image Jeux">
         <h2><?php echo $results[1] ?></h2>
-            <?php echo $results[2] ?>
+            <p><?php echo $results[2] ?></p>
     </section>
 </main>
 </body>

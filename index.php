@@ -15,7 +15,7 @@
         <div id="content">
             <form method="post">
                 <input type="search" id="search_input" placeholder="Rechercher un jeu">
-                <a href="element.php"><input type="button" id="search_button" value="Rechercher"></a>
+                <input type="button" id="search_button" value="Rechercher">
             </form>
             <div id="results">
                 
