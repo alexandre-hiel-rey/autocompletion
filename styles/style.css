@@ -1,3 +1,9 @@
+<<<<<<< .merge_file_a17176
+=======
+/* Imports */
+
+/* End Imports */
+>>>>>>> .merge_file_a19808
 /* Init */
 html, body{
     width: 100%;
@@ -5,13 +11,24 @@ html, body{
     margin: 0;
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+<<<<<<< .merge_file_a17176
+=======
+}
+#index
+{
+>>>>>>> .merge_file_a19808
     background-image: url("../images/index.jpg");
     background-repeat: none;
     background-size: cover;
     background-attachment: fixed;
 }
 /* End Init */
+<<<<<<< .merge_file_a17176
 /* Header */
+=======
+
+/* HEADER */
+>>>>>>> .merge_file_a19808
 header
 {
     width: 100%;
@@ -127,17 +144,29 @@ header #header_title a h1:hover
     color:rgb(0, 88, 0);
 }
 /* END HEADER*/
+<<<<<<< .merge_file_a17176
 /* MAIN */
 main{
     width: 100%;
     height: 90%;
 }
 main#index{
+=======
+
+/* INDEX MAIN*/
+main{
+    width: 100%;
+    height: 90%;
+>>>>>>> .merge_file_a19808
     display: flex;
     align-items: center;
     justify-content: center;
 }
+<<<<<<< .merge_file_a17176
 main#index #content{
+=======
+main #content{
+>>>>>>> .merge_file_a19808
     width: 100%;
     height: 90%;
     display: flex;
@@ -145,7 +174,11 @@ main#index #content{
     justify-content: center;
     flex-direction: column;
 }
+<<<<<<< .merge_file_a17176
 main#index #content form{
+=======
+main #content form{
+>>>>>>> .merge_file_a19808
     width: 50%;
     height: 20%;
     display: flex;
@@ -153,7 +186,11 @@ main#index #content form{
     align-items: center;
 }
 
+<<<<<<< .merge_file_a17176
 main#index #content form input:not([type="submit"]){
+=======
+main #content form input:not([type="button"]){
+>>>>>>> .merge_file_a19808
     width: 70%;
     height: 30%;
     border-radius: 5px;
@@ -162,7 +199,11 @@ main#index #content form input:not([type="submit"]){
     font-size: 0.8vw;
     outline: none;
 }
+<<<<<<< .merge_file_a17176
 main#index #content form input[type="submit"]{
+=======
+main #content form input[type="button"]{
+>>>>>>> .merge_file_a19808
     width: 20%;
     height: 30%;
     border: none;
@@ -172,11 +213,19 @@ main#index #content form input[type="submit"]{
     outline: none;
     cursor: pointer;
 }
+<<<<<<< .merge_file_a17176
 main#index #content form input[type="submit"]:active{
     background-color: rgb(0, 88, 0);
 }
 
 main#index #content #results{
+=======
+main #content form input[type="button"]:active{
+    background-color: rgb(0, 88, 0);
+}
+
+main #content #results{
+>>>>>>> .merge_file_a19808
     width: 40%;
     height: auto;
     margin-right: 150px;
@@ -186,27 +235,44 @@ main#index #content #results{
     padding-top: 5px;
     padding-bottom: 5px;
 }
+<<<<<<< .merge_file_a17176
 main#index #content #results p{
+=======
+main #content #results p{
+>>>>>>> .merge_file_a19808
     text-align: center;
     font-size: 1vw;
     color: white;
 }
+<<<<<<< .merge_file_a17176
 main#index #content #results a{
     cursor: auto;
     text-decoration: none;
 }
 main#index #content #results a .result{
+=======
+main #content #results a{
+    cursor: auto;
+    text-decoration: none;
+}
+main #content #results a .result{
+>>>>>>> .merge_file_a19808
     width: 100%;
     height: 30px;
     display: flex;
     align-items: center;
 }
+<<<<<<< .merge_file_a17176
 main#index #content #results a .result p{
+=======
+main #content #results a .result p{
+>>>>>>> .merge_file_a19808
     color: white;
     font-size: 1vw;
     margin-left: 10px;
     cursor: context-menu;
 }
+<<<<<<< .merge_file_a17176
 main#index #content #results a .result:hover{
     background-color: rgb(100, 100, 100);
 }
@@ -264,6 +330,13 @@ main#search #content .resultat .infos a{
 main#search #content .resultat .infos a:hover{
     text-decoration: underline;
 }
+=======
+main #content #results a .result:hover{
+    background-color: rgb(100, 100, 100);
+}
+
+/* END INDEX MAIN */
+>>>>>>> .merge_file_a19808
 
 /* Page ELEMENT */
 
@@ -303,4 +376,8 @@ main #presentation p
     letter-spacing: 1px;
 }
 
+<<<<<<< .merge_file_a17176
 /* End Page ELEMENT */
+=======
+/* End Page ELEMENT */
+>>>>>>> .merge_file_a19808
