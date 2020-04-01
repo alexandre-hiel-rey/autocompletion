@@ -1,0 +1,260 @@
+/* Imports */
+
+/* End Imports */
+/* Init */
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#index
+{
+    background-image: url("../images/index.jpg");
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* End Init */
+
+/* HEADER */
+header
+{
+    width: 100%;
+    height: 5%;
+    background: #333;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: row;
+}
+
+/* Search bar & Button */
+header section
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header #header_search
+{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header #header_search form input:not([type="button"])
+{
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 1px;
+    font-size: 0.8vw;
+    outline: none;
+    margin-left: 5%;
+}
+
+/* Dropdown */
+header #header_results{
+    width:70%;
+    height: auto;
+    margin-right: 150px;
+    background-color: #333;
+    border-radius: 5px;
+    display:none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 5%;
+    position: relative;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+header #header_results p{
+    text-align: center;
+    font-size: 1vw;
+    color: white;
+}
+header #header_results a{
+    cursor: auto;
+    text-decoration: none;
+}
+header #header_results a .result{
+    width: 100%;
+    height: 30px;
+    display: block;
+    align-items: center;
+    position: relative;
+}
+header #header_results a .result p{
+    color: white;
+    font-size: 1vw;
+    margin-left: 10px;
+    cursor: context-menu;
+}
+header #header_results a .result:hover{
+    background-color: rgb(100, 100, 100);
+}
+header #header_search form input[type="button"]{
+    width: 10%;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    padding: 1px;
+}
+header #header_search form input[type="button"]:active{
+    background-color: rgb(0, 88, 0);
+}
+
+/* Header Title */
+header #header_title
+{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+header #header_title a h1
+{
+    padding: 0;
+    margin: 0;
+    color: green;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+header #header_title a
+{
+    text-decoration: none;
+}
+header #header_title a h1:hover
+{
+    color:rgb(0, 88, 0);
+}
+/* END HEADER*/
+
+/* INDEX MAIN*/
+main{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main #content{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+main #content form{
+    width: 50%;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main #content form input:not([type="button"]){
+    width: 70%;
+    height: 30%;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 0.8vw;
+    outline: none;
+}
+main #content form input[type="button"]{
+    width: 20%;
+    height: 30%;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+main #content form input[type="button"]:active{
+    background-color: rgb(0, 88, 0);
+}
+
+main #content #results{
+    width: 40%;
+    height: auto;
+    margin-right: 150px;
+    background-color: #333;
+    border-radius: 5px;
+    display: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+main #content #results p{
+    text-align: center;
+    font-size: 1vw;
+    color: white;
+}
+main #content #results a{
+    cursor: auto;
+    text-decoration: none;
+}
+main #content #results a .result{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+main #content #results a .result p{
+    color: white;
+    font-size: 1vw;
+    margin-left: 10px;
+    cursor: context-menu;
+}
+main #content #results a .result:hover{
+    background-color: rgb(100, 100, 100);
+}
+
+/* END INDEX MAIN */
+
+/* Page ELEMENT */
+
+main #presentation
+{
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.438);
+    padding: 5%;
+    color: white;
+}
+
+main #presentation img
+{
+    width: 300px;
+    height: 200px;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+main #presentation h2
+{
+    font-size: 30px;
+    margin: 0;
+    padding: 5px;
+    letter-spacing: 2px;
+}
+
+main #presentation p
+{
+    margin: 0;
+    padding: 5px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+/* End Page ELEMENT */
