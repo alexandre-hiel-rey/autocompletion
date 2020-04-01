@@ -1,10 +1,10 @@
 <?php
-    // if(!isset($_GET['id']))
-    // {
-    //     header('Location: index.php');
-    // }
+    if($_GET['id']) == '')
+    {
+        header('Location: index.php');
+    }
 
-    $id = ;
+    $id = $_GET['id'];
 
     $db = new PDO('mysql:host=localhost;dbname=autocompletion', 'root', '');
 
