@@ -1,0 +1,150 @@
+/* Imports */
+
+/* End Imports */
+/* Init */
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* End Init */
+
+main{
+    width: 100%;
+    height: 90%;
+}
+main#index{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main#index #content{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+main#index #content form{
+    width: 50%;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: red; */
+}
+
+main#index #content form input:not([type="submit"]){
+    width: 70%;
+    height: 30%;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 0.8vw;
+    outline: none;
+}
+main#index #content form input[type="submit"]{
+    width: 20%;
+    height: 30%;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+main#index #content form input[type="submit"]:active{
+    background-color: rgb(0, 88, 0);
+}
+
+main#index #content #results{
+    width: 40%;
+    height: auto;
+    margin-right: 150px;
+    background-color: #333;
+    border-radius: 5px;
+    display: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+main#index #content #results p{
+    text-align: center;
+    font-size: 1vw;
+    color: white;
+}
+main#index #content #results a{
+    cursor: auto;
+    text-decoration: none;
+}
+main#index #content #results a .result{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+main#index #content #results a .result p{
+    color: white;
+    font-size: 1vw;
+    margin-left: 10px;
+    cursor: context-menu;
+}
+main#index #content #results a .result:hover{
+    background-color: rgb(100, 100, 100);
+}
+
+main#search{
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+}
+main#search .results_p{
+    color: rgb(187, 187, 187);
+    font-size: 2vw;
+}
+main#search .results_p span{
+    color: green;
+}
+main#search #content{
+    width: 70%;
+    height: 90%;
+    /* background-color: red; */
+}
+
+main#search #content .resultat{
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+main#search #content .resultat:hover{
+    background-color: #444;
+}
+
+main#search #content .resultat .image{
+    width: 20%;
+    height: 100%;
+}
+main#search #content .resultat .image img{
+    width: 100%;
+    height: 100%;
+}
+main#search #content .resultat .infos{
+    width: 70%;
+    height: 100%;
+    margin-left: 50px;
+    color: white;
+}
+main#search #content .resultat .infos a{
+    color: inherit;
+    text-decoration: none;
+}
+main#search #content .resultat .infos a:hover{
+    text-decoration: underline;
+}
