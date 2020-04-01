@@ -38,7 +38,7 @@ header #header_search
     flex-direction: column;
     justify-content: center;
 }
-header #header_search form input:not([type="button"])
+header #header_search form input:not([type="submit"])
 {
     width: 70%;
     border-radius: 5px;
@@ -75,9 +75,9 @@ header #header_results a{
 header #header_results a .result{
     width: 100%;
     height: 30px;
-    display: block;
-    align-items: center;
-    position: relative;
+    /* display: block; */
+    /* align-items: center; */
+    /* position: relative; */
 }
 header #header_results a .result p{
     color: white;
@@ -88,7 +88,7 @@ header #header_results a .result p{
 header #header_results a .result:hover{
     background-color: rgb(100, 100, 100);
 }
-header #header_search form input[type="button"]{
+header #header_search form input[type="submit"]{
     width: 10%;
     border: none;
     background-color: green;
@@ -98,7 +98,7 @@ header #header_search form input[type="button"]{
     cursor: pointer;
     padding: 1px;
 }
-header #header_search form input[type="button"]:active{
+header #header_search form input[type="submit"]:active{
     background-color: rgb(0, 88, 0);
 }
 
@@ -130,7 +130,7 @@ header #header_title a h1:hover
 /* MAIN */
 main{
     width: 100%;
-    height: 90%;
+    height: 95%;
 }
 main#index{
     display: flex;
@@ -148,14 +148,14 @@ main#index #content{
 main#index #content form{
     width: 50%;
     height: 20%;
-    display: flex;
-    justify-content: space-evenly;
+    display: block;
+    justify-content: center;
     align-items: center;
 }
 
 main#index #content form input:not([type="submit"]){
-    width: 70%;
-    height: 30%;
+    width: 75%;
+    height: 100%;
     border-radius: 5px;
     border: 1px solid black;
     padding: 10px;
@@ -164,7 +164,7 @@ main#index #content form input:not([type="submit"]){
 }
 main#index #content form input[type="submit"]{
     width: 20%;
-    height: 30%;
+    height: 100%;
     border: none;
     background-color: green;
     color: white;
@@ -175,44 +175,47 @@ main#index #content form input[type="submit"]{
 main#index #content form input[type="submit"]:active{
     background-color: rgb(0, 88, 0);
 }
-
-main#index #content #results{
-    width: 40%;
+main#index #content form #inputs{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    justify-content: space-between;
+}
+main#index #content form #results{
+    width: 75%;
     height: auto;
-    margin-right: 150px;
     background-color: #333;
     border-radius: 5px;
     display: none;
     padding-top: 5px;
     padding-bottom: 5px;
 }
-main#index #content #results p{
+main#index #content form #results p{
     text-align: center;
     font-size: 1vw;
     color: white;
 }
-main#index #content #results a{
+main#index #content form #results a{
     cursor: auto;
     text-decoration: none;
 }
-main#index #content #results a .result{
+main#index #content form #results a .result{
     width: 100%;
     height: 30px;
     display: flex;
     align-items: center;
 }
-main#index #content #results a .result p{
+main#index #content form #results a .result p{
     color: white;
     font-size: 1vw;
     margin-left: 10px;
     cursor: context-menu;
 }
-main#index #content #results a .result:hover{
+main#index #content form #results a .result:hover{
     background-color: rgb(100, 100, 100);
 }
 
 main#search{
-    background-color: #333;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -228,7 +231,6 @@ main#search .results_p span{
 main#search #content{
     width: 70%;
     height: 90%;
-    /* background-color: red; */
 }
 
 main#search #content .resultat{
@@ -237,10 +239,9 @@ main#search #content .resultat{
     padding: 10px;
     box-sizing: border-box;
     display: flex;
-    /* justify-content: space-evenly; */
 }
 main#search #content .resultat:hover{
-    background-color: #444;
+    background-color: rgba(68, 68, 68, 0.404);
 }
 
 main#search #content .resultat .image{

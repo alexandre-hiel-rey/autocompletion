@@ -38,7 +38,6 @@ $(document).ready(function(){
                         data = JSON.parse(data);
                         $('#results').empty();
                         $.each(data, function(game){
-                            var id = data[game].id; 
                             var name = data[game].nom; 
                             $('#results').append("<a href='recherche.php?search=" + name + "'><div class='result'><p>" + name + "</p></div></a>");
                         })
@@ -91,9 +90,8 @@ $(document).ready(function(){
                         data = JSON.parse(data);
                         $('#header_results').empty();
                         $.each(data, function(game){
-                            var id = data[game].id; 
                             var name = data[game].nom; 
-                            $('#header_results').append("<a href='recherche.php?search" + name + "'><div class='result'><p>" + name + "</p></div></a>");
+                            $('#header_results').append("<a href='recherche.php?search=" + name + "'><div class='result'><p>" + name + "</p></div></a>");
                         })
                         
                     }
