@@ -1,8 +1,7 @@
 <header>
     <section>
         <div id="header_search">
-            <form method="post">
-                
+            <form method="get">
                 <input type="search" id="header_search_bar" placeholder="Rechercher un jeu">
                 <input type="button" id="header_button" value="Rechercher">
             </form>

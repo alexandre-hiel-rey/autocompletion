@@ -157,7 +157,6 @@ main #content form{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* background-color: red; */
 }
 
 main #content form input:not([type="button"]){
@@ -224,13 +223,38 @@ main #content #results a .result:hover{
 
 main #presentation
 {
-    width: 100%;
+    width: 20%;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.438);
+    padding: 5%;
+    color: white;
 }
 
 main #presentation img
 {
     width: 300px;
     height: 200px;
-    border: 3px solid black;
+    border: 3px solid rgb(255, 255, 255);
 }
+
+main #presentation h2
+{
+    font-size: 30px;
+    margin: 0;
+    padding: 5px;
+    letter-spacing: 2px;
+}
+
+main #presentation p
+{
+    margin: 0;
+    padding: 5px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+/* End Page ELEMENT */
