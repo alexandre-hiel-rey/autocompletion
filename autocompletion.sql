@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  mar. 31 mars 2020 à 15:29
+-- Généré le :  mer. 01 avr. 2020 à 15:56
 -- Version du serveur :  5.7.26
 -- Version de PHP :  7.2.18
 
@@ -48,7 +48,7 @@ INSERT INTO `jeuxvideo` (`id`, `nom`, `type`, `image`) VALUES
 (2, 'Dofus', 'MMORPG', 'images/dofus.jpg'),
 (3, 'Farming Simulator 19', 'Gestion', 'images/farmingsimulator.jpg'),
 (4, 'Arma 3', 'Simulation', 'images/arma.jpg'),
-(5, 'Age of Empire 3', 'Stratégie', 'images/ageofempire3.jpg'),
+(5, 'Age of Empire 3', 'Strategie', 'images/ageofempires3.jpg'),
 (6, 'Ark', 'Survie', 'images/ark.jpg'),
 (7, 'Batman Arkham Knight', 'Action', 'images/batmanarkhamknight.jpg'),
 (8, 'Battleblock Theater', 'Coop', 'images/battleblocktheater.jpg'),
@@ -64,21 +64,21 @@ INSERT INTO `jeuxvideo` (`id`, `nom`, `type`, `image`) VALUES
 (18, 'For Honor', 'Action', 'images/forhonor.jpg'),
 (19, 'Garry\'s mod', 'Sandbox', 'images/garrysmod.jpg'),
 (20, 'Grand Theft Auto V', 'Action', 'images/grandtheftautov.jpg'),
-(21, 'Battlefiel 1', 'FPS', 'images/battlefiel1.jpg'),
+(21, 'Battlefield 1', 'FPS', 'images/battlefield1.jpg'),
 (22, 'Half Life Alyx', 'VR', 'images/halflifealyx.jpg'),
 (23, 'Halo', 'FPS', 'images/halo.jpg'),
 (24, 'House Flipper', 'Simulation', 'images/houseflipper.jpg'),
 (25, 'Insurgency', 'FPS', 'images/insurgency.jpg'),
 (26, 'Just Cause 4', 'Action', 'images/justcause4.jpg'),
-(27, 'Jurrasic World Evolution', 'Gestion', 'images/jurrasicworldevolution.jpg'),
+(27, 'Jurrasic World Evolution', 'Gestion', 'images/jurassicworldevolution.jpg'),
 (28, 'Kerbal Space Program', 'Simulation', 'images/kerbalspaceprogram.jpg'),
-(29, 'Kingdom Come Deliverance', 'Médiéval', 'images/kingdomcomedeliverance.jpg'),
+(29, 'Kingdom Come Deliverance', 'Medieval', 'images/kingdomcomedeliverance.jpg'),
 (30, 'Kingdom Two Crowns', 'Tower Defense', 'images/kingdomtwocrowns.jpg'),
 (31, 'Left 4 Dead 2', 'FPS', 'images/left4dead2.jpg'),
 (32, 'League Of Legends', 'MOBA', 'images/leagueoflegends.jpg'),
 (33, 'Minecraft', 'Sandbox', 'images/minecraft.jpg'),
 (34, 'Monster Hunter World', 'Coop', 'images/monsterhunterworld.jpg'),
-(35, 'Mount And Blade 2', 'Médiéval', 'images/mountandblade2.jpg'),
+(35, 'Mount And Blade 2', 'Medieval', 'images/mountandblade2.jpg'),
 (36, 'No Man\'s Sky', 'Exploration', 'images/nomanssky.jpg'),
 (37, 'Overcooked 2', 'Coop', 'images/overcooked2.jpg'),
 (38, 'Overwatch', 'FPS', 'images/overwatch.jpg'),
@@ -97,7 +97,7 @@ INSERT INTO `jeuxvideo` (`id`, `nom`, `type`, `image`) VALUES
 (51, 'Rainbow 6 Siege', 'FPS', 'images/rainbow6siege.jpg'),
 (52, 'The Witcher 3', 'RPG', 'images/thewitcher3.jpg'),
 (53, 'Unturned', 'Survie', 'images/unturned.jpg'),
-(54, 'Read Dead Redemption 2', 'Action', 'images/readdeadredemption2.jpg'),
+(54, 'Red Dead Redemption 2', 'Action', 'images/reddeadredemption2.jpg'),
 (55, 'Watch Dogs 2', 'Action', 'images/watchdogs2.jpg'),
 (56, 'Worms WMD', 'Action', 'images/wormswmd.jpg'),
 (57, 'Warframe', 'Action', 'images/warframe.jpg'),
