@@ -24,7 +24,7 @@
     <title>Recherche - <?php echo $search; ?></title>
 </head>
 <body>
-    <header></header>
+    <?php require_once('templates/header.php'); ?>
     <main id="search">
         <?php if($empty == true){ ?>
             <p class="results_p">Aucun résultat pour <span><?php echo $search; ?></span></p>
